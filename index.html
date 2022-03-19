@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Facebook - log in or sign up</title>
+  </head>
+  <body class="bg-gray-100">
+    <div class="container mt-48 flex mx-auto justify-center items-center">
+      <!-- left container start -->
+      <div class="left w-1/3 mx-14">
+        <img src="facebook_img.svg" alt="facebook_img" class="w-60" />
+        <p class="text-3xl mx-6">
+          Facebook helps you connect and share with the people in your life.
+        </p>
+      </div>
+      <!-- left container end -->
+
+      <!-- right container start -->
+      <div
+        class="right flex flex-col bg-white p-3 rounded-lg w-1/4 shadow-lg text-lg relative"
+      >
+        <input
+          type="email"
+          placeholder="Email address or phone number"
+          name="email"
+          class="px-4 h-12 my-2 border-2 rounded-md border-gray-300 outline-blue-600"
+        />
+        <input
+          class="px-4 h-12 my-2 border-2 rounded-md border-gray-300 outline-blue-600"
+          type="password"
+          placeholder="password"
+          name="password"
+        />
+        <button
+          class="bg-blue-600 hover:bg-blue-700 text-white font-semibold h-12 my-2 rounded-md cursor-pointer"
+        >
+          Log in
+        </button>
+        <span class="text-blue-400 text-sm my-2 text-center cursor-pointer"
+          >Forgotten password?</span
+        >
+        <hr class="my-2" />
+        <button
+          class="bg-green-600 hover:bg-green-700 text-white font-semibold h-12 my-2 rounded-md cursor-pointer w-fit mx-auto px-4"
+        >
+          Create New Account
+        </button>
+        <span class="absolute -bottom-12 text-sm">
+          <span class="font-bold cursor-pointer hover:underline mx-auto"
+            >Create a Page</span
+          >
+          for a celebrity, brand or business.</span
+        >
+      </div>
+      <!-- right container end -->
+    </div>
+  </body>
+</html>
